@@ -1,5 +1,5 @@
 FROM openjdk
-MAINTAINER Lokesh Sampath
-ADD myProject/target/myProject.jar myProject.jar
-ENTRYPOINT ["java", "-jar", "/myProject.jar"]
+MAINTAINER Lokesh
+ADD myProject/target/myProj.jar myProj.jar
+ENTRYPOINT ["java", "-jar", "/myProj.jar"]
 EXPOSE 8090
